@@ -18,7 +18,7 @@ CouchDB is started as a service on system startup via the Upstart Daemon \([http
 | Status | `$ sudo initctl list \| grep couchdb`<br>*couchdb start/running, process 6332*<br><br>`$ ps -fA \| grep couchdb`<br>*root 6332 1 0 21:20 ? 00:00:00 su couchdb -c /usr/bin/couchdb*<br>*couchdb 6334 6332 1 21:20 ? 00:00:16 /usr/lib/erlang/erts-5.10.4/bin/beam.smp -Bd -K true -A 4 -- -root /usr/lib/erlang -progname erl -- -home /var/lib/couchdb -- -noshell -noinput -os\_mon start\_memsup false start\_cpu\_sup false disk\_space\_check\_interval 1 disk\_almost\_full\_threshold 1 -sasl errlog\_type error -couch\_ini /etc/couchdb/default.ini /etc/couchdb/local.ini -s couch*<br>*couchdb 6354 6334 0 21:20 ? 00:00:00 sh -s disksup* |
 | Log File | /srv/primero/logs/couchdb/couch.log |
 | Data Dir | /var/lib/couchdb |
-| User | root, couchdb |
+| Run Users | root, couchdb |
 
 # 
 

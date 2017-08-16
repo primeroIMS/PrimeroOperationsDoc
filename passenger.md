@@ -7,7 +7,7 @@ If there is instability or unpredictable behavior experienced after applying a c
 | Stop | `$ sudo systemctl stop passenger` |
 | Status | `$ sudo systemctl status passenger` |
 | Log File | /srv/primero/logs/rails/passenger.log |
-| User | root, primero |
+| Run User | root, primero |
 
 
 
