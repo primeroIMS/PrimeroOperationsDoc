@@ -7,7 +7,7 @@ Solr is launched by Supervisor \([http://supervisord.org/](http://supervisord.or
 | Start | `$ sudo supervisorctl start solr` |
 | :--- | :--- |
 | Stop | `$ sudo supervisorctl stop solr` |
-| Status | `$ sudo supervisorctl status`<br>*backburner RUNNING pid 10570, uptime 5:28:23*<br>*couch-watcher RUNNING pid 10580, uptime 5:28:23*<br>*primero-scheduler RUNNING pid 10587, uptime 5:28:23*<br>*solr RUNNING pid 10307, uptime 5:28:23<br>who-watches-the couch watcher RUNNING pid 10555, uptime 5:28:23*<br><br>`$ ps -fA \| grep solr`<br>*solr 1307 1255 0 15:31 ? 00:00:44 java -Djetty.port=8983 -Dsolr.data.dir=/srv/primero/application/solr/data/production -Dsolr.solr.home=/srv/primero/application/solr -Djava.awt.headless=true -jar start.jar* |
+| Status | `$ sudo supervisorctl status solr`<br>*solr                             RUNNING   pid 14899, uptime 9:52:10*<br><br>`$ ps -fA \| grep solr`<br>*solr     14899  1423  0 06:25 ?        00:00:32 java -Djetty.port=8983 -Dsolr.data.dir=/srv/primero/application/solr/data/production -Dsolr.solr.home=/srv/primero/application/solr -Djava.awt.headless=true -jar start.jar* |
 | Reindex | `$ RAILS_ENV=production bundle exec rake sunspot:reindex` |
 | Log Files | /srv/primero/logs/solr/output.log |
 | Run User | root, solr |

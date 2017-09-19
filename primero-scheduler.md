@@ -17,7 +17,7 @@ For Sierra Leone AWS deploy, RAILS\_SCHEDULER\_LOGDIR is /data/logs/scheduler
 | Start | `$ sudo supervisorctl start primero-scheduler` |
 | :--- | :--- |
 | Stop | `$ sudo supervisorctl start primero-scheduler` |
-| Status | `$ sudo supervisorctl status`<br>*backburner RUNNING pid 10570, uptime 5:28:23*<br>*couch-watcher RUNNING pid 10580, uptime 5:28:23*<br>*primero-scheduler RUNNING pid 10587, uptime 5:28:23*<br>*solr RUNNING pid 10307, uptime 5:28:23*<br>*who-watches-the couch watcher RUNNING pid 10555, uptime 5:28:23*<br><br>`$ ps -fA \| grep primero-scheduler`<br>*primero 22121 1 0 Jul23 ? 00:00:25 primero-scheduler* |
+| Status | `$ sudo supervisorctl status primero-scheduler`<br>*primero-scheduler                RUNNING   pid 10823, uptime 11:13:15*<br><br>`$ ps -fA \| grep primero-scheduler`<br>*primero  10823  1423  0 05:02 ?        00:00:00 /bin/bash /srv/primero/application/primero-scheduler-worker.sh* |
 | Log Files | /srv/primero/logs/scheduler/primero-scheduler.output |
 | Run User | root, primero |
 
