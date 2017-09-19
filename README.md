@@ -1,6 +1,6 @@
 # Primero Application
 
-![](/img/media/primero.jpg)Primero is a Ruby on Rails application. It is served by Phusion Passenger which is proxied to by an Nginx web server. Static assets such as JS, CSS, and application icons and images are served by Nginx.
+![](/img/media/primero.png)Primero is a Ruby on Rails application. It is served by Phusion Passenger which is proxied to by an Nginx web server. Static assets such as JS, CSS, and application icons and images are served by Nginx.
 
 Nginx is configured to serve Primero via HTTPS. It runs on default port HTTPS 443 which accepts traffic redirected from port 80.
 
