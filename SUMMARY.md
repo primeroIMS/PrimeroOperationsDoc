@@ -10,4 +10,5 @@
 * [Backburner](backburner.md)
 * [CouchWatcher](couchwatcher.md)
 * [Primero Scheduler](primero-scheduler.md)
+* [primeroctl Script](primeroctl-script.md)
 
