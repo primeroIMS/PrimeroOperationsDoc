@@ -1,4 +1,8 @@
+# primeroctl Script
+
+```
+$ sudo /srv/primero/bin/primeroctl status
+```
 
 
-This is the Script
 
