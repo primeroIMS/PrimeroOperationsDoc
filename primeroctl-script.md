@@ -1,5 +1,6 @@
 # primeroctl Script
 
+The primeroctl script should be used to act simulaneously on all of the primero applications. so you can simultaneously start, stop or check the status of: CouchDB, Nginx, Passenger, Solr, Beanstalkd, Backburner, CouchWatcher, and Primero Scheduler.
 
 | Start | `$ sudo /srv/primero/bin/primeroctl start` |
 | :--- | :--- |
