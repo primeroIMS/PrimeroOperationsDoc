@@ -1,0 +1,26 @@
+{
+    "title" : "Primero Operations Doc",
+    "github" : false,
+    "plugins" : [ "-mathjax", "-mixpanel","-search", "edit-link", "downloadpdf"],
+    "pluginsConfig": {
+            "edit-link": {
+                "base": "https://github.com/primeroIMS/PrimeroOperationsDoc/edit/master",
+                "label": "Edit This Page"
+            },
+            "downloadpdf": {
+                 "base": "https://www.gitbook.com/download/pdf/book/primero/primero-operations-doc",
+                 "label": "Download PDF",
+                 "multilingual": false
+    }
+    },
+    "links" : {
+      "sidebar": {
+            "Docs Home": "https://primeroims.github.io/primero/docs/"
+        },
+      "sharing" : {
+        "google" : null,
+        "twitter" : null,
+        "facebook" : null
+      }
+    }
+}
